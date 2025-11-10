@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RadAssist AI - NHS Radiology Workflow Assistant</title>
+    <meta name="description" content="Secure NHS radiology workflow assistant helping teams manage follow-ups, reports, and alerts. Empowering NHS Radiology Teams with smarter follow-ups for safer patients." />
+    <meta name="keywords" content="NHS, radiology, workflow, assistant, follow-ups, reports, alerts, healthcare" />
+    
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    
+    <!-- RadAssist AI Support Assistant -->
+    <script 
+      src="https://readdy.ai/api/public/assistant/widget?projectId=0a4298c4-e1da-4b9c-81d5-63edd21ca140"
+      mode="hybrid"
+      voice-show-transcript="true"
+      theme="light"
+      size="compact"
+      position="bottom-right"
+      accent-color="#14B8A6"
+      button-base-color="#005EB8"
+      button-accent-color="#FFFFFF"
+      main-label="RadAssist AI Support Assistant"
+      start-button-text="Start Chat"
+      end-button-text="End Chat"
+      empty-chat-message="Hello! I'm here to help with RadAssist AI questions. Ask me anything about our NHS radiology workflow system."
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
